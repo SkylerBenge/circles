@@ -1,0 +1,63 @@
+html, body, #main{
+  width:1000px;
+  margin:0 auto;
+}
+h1 {
+  font-family: "Helvetica";
+  font-size: 95px;
+  text-align: center;
+  letter-spacing: -6px;
+  margin: 15px 0px;
+}
+h2 {
+  font-family: "Verdana";
+  font-size: 20px;
+  color: #58B;
+  text-align: center;
+}
+#geocoding_form {
+  margin: 30px 0px;
+  margin-left: 100px;
+}
+label {
+  font-family: "Verdana";
+  font-size: 20px;
+  font-weight: 600;
+}
+#type {
+  height: 25px;
+  width: 125px;
+  text-transform: capitalize;
+}
+#address {
+  height: 25px;
+  width: 325px;
+}
+#radius {
+  height: 31px;
+}
+.btn {
+  font-family: "Helvetica";
+  font-weight: 600;
+  font-size: 16px;
+  padding: 7px 20px;
+  margin: 0px 2px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #58B;
+  background-color: #58B;
+}
+#map {
+  display: block;
+  width: 800px;
+  height: 400px;
+  box-shadow: 0px 0px 20px #999;
+  margin: 0 auto;
+  border:15px solid #F1F1F1;
+  border-radius: 2px;
+}
+.content {
+  width:200px;
+  height:75px;
+}
